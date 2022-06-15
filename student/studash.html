@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Document</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <section class="addstudent">
+        <div class="dashprofile">
+            <img src="../images/istockphoto-1305114996-170667a-removebg-preview.png" alt="">
+            <h1>ST.EMMA</h1>
+            <p id="studentname"></p>
+        </div>
+        <button data-bs-target="#addsubjectmodal" data-bs-toggle="modal">CHOOSE SUBJECTS</button>
+        <button class="choosebtn"><a href="marks.html">STUDENTS MARKS</a></button>
+        <div class="count">
+            <h5>TOTAL SUBJECTS</h5>
+            <h5>20</h5>
+        </div>
+
+        <div class="modal" tabindex="-1" id="addsubjectmodal">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title">SELECTS SUBJECTS</h5>
+                        <button class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="subjectsholder">
+                            <div class="d-flex">
+                                <input type="radio" name="" id="maths">
+                                <label for="">Maths</label>
+                            </div>
+                            <div class="d-flex">
+                                <input type="radio" name="" id="english">
+                                <label for="">English</label>
+                            </div>
+                            <div class="d-flex">
+                                <input type="radio" name="" id="kiswahili">
+                                <label for="">Kiswahili</label>
+                            </div>
+                            <div class="d-flex">
+                                <select id="humanities" class="stuinput" name="">
+                                    <option>Humanities</option>
+                                    <option value="Geography">Geography</option>
+                                    <option value="History">History</option>
+                                </select>
+                            <!-- <div class="d-flex">
+                                <input type="radio" name="" id="geography">
+                                <label for="">Geography</label>
+                            </div>
+                            <div class="d-flex">
+                                <input type="radio" name="" id="history">
+                                <label for="">History</label>
+                            </div> -->
+                            <div class="d-flex">
+                                <select id="technicals" class="stuinput" name="">
+                                    <option>Technicals</option>
+                                    <option value="Business">Business</option>
+                                    <option value="Agriculture">Agriculture</option>
+                                </select>
+                                <!-- <div class="d-flex">
+                                    <input type="radio" name="" id="business">
+                                    <label for="">Business</label>
+                                </div>
+                                <div class="d-flex">
+                                    <input type="radio" name="" id="agriculture">
+                                    <label for="">Agriculture</label> -->
+                                </div>
+                            </div>
+                           
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button class="btn btn-outline-success" id="addsubjects">ADD</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </section>
+    <script src="https://www.gstatic.com/firebasejs/8.4.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.4.1/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.4.1/firebase-firestore.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.4.1/firebase-storage.js"></script>
+    <script src="../JS/config.js"></script>
+    <script src="../student/js/addsubjects.js"></script>
+</body>
+</html>

@@ -1,0 +1,120 @@
+/* ======================================addteacher.html */
+.dashboard{
+    height: 100vh;
+    width: 100%;
+}
+.dashprofile {
+    height: 14vh;
+    width: 100%;
+    display: flex;background-color: #9de5fd;
+    align-items: center;
+
+}
+.dashprofile img {
+    height: 80PX;
+    width: 80px;
+    border-radius: 50%;
+    background-color: white;
+}
+.dashanks {
+    background-color: #9de5fd;
+    height: 8vh;
+    width: 80%;
+    margin-top: 4vh;
+    margin-left: 10%;
+    border-radius: 10px;
+    padding-top: 2vh;
+}
+.addstudent {
+    height: 100vh;
+    width: 100%;
+}
+.addstudis5 {
+    display: flex;
+    margin-top: 10vh;
+    height: 400px;
+    width: 800px;
+    margin-left: 240px;
+    background-color: gainsboro;
+}
+.addteacherbtn {
+    position: absolute;
+    bottom: 25vh;
+    left: 500px;
+    height: 6vh;
+    width: 200px;
+    background-color: #9de5fd;
+    border-radius: 20px;
+}
+.part3 {
+    margin-left: 70px;
+}
+.part4 {
+    margin-left: 70px;
+}
+.part3 input,.part4 input {
+    margin-top: 3vh;
+    height: 6vh;
+    width: 250px;
+}
+/* =====================studentdash */
+.dash {
+    font-family: sans-serif;
+    height: 100vh;
+    width: 100%;
+}
+.dashnav {
+    height: 10vh;
+    width: 100%;
+    background-color: black;
+    color: white;
+}
+.dn {
+    margin-left: 500px;
+}
+.pos {
+    position: relative;
+}
+.circle {
+    border-radius: 50%;
+    background-color: red;
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    margin-left: 65px;
+}
+.lia {
+    height: 80vh;
+    width: 200px;
+    background-color: black;
+    margin-top: 0;
+}
+.dsg1 {
+    margin-top: 10vh;
+    margin-left: 50px;
+}
+.dsg {
+    color: white;
+    text-decoration: none;
+}
+.dis {
+    display: flex;
+}
+.count {
+    height: 30vh;
+    width: 250px;
+    background-color: black;
+    color: white;
+    margin-left: 50px;
+    margin-top: 5vh;
+    border-radius: 10px;
+}
+.move {
+    margin-right: 0px;
+}
+.choosebtn {
+    height: 6vh;
+    width: 200px;
+    background-color: aqua;
+    border-radius: 20px;
+}

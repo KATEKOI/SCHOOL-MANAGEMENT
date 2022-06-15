@@ -1,0 +1,233 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.login {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+}
+.rightlogin {
+    height: 100vh;
+    width: 50%;
+    background-image: url(../images/istockphoto-1305114996-170667a.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.leftlogin {
+    height: 100vh;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+    padding-top: 100px;
+}
+.leftlogin p {
+    color: #9de5fd;
+    font-size: 25px;
+    margin-bottom: 30px;
+}
+.login label {
+    color: black;
+    font-size: 20px;
+}
+.leftlogin input:focus {
+    background-color: #9de5fd;
+    width: 100%;
+}
+.leftlogin input {
+    width: 50%;
+    padding: 10px;
+    outline: none;
+    border: 2px solid #9de5fd;
+    margin-bottom: 20px;
+    border-radius: 20px;
+
+}
+.leftlogin input ::placeholder {
+    font-weight: bold;
+    color: black;
+}
+.leftlogin a {
+    text-decoration: none;
+}
+.leftlogin button {
+    background-color: #9de5fd;
+    padding: 5px 15px 5px 15px;
+    border: none;
+    border-radius: 20px;
+    height: 6vh;
+}
+/* ========================================reset.html */
+.reset {
+    height: 80vh;
+    width: 70%;
+    background-color: #9de5fd;
+    position: relative;
+    margin-left: 160px;
+    margin-top: 55px;
+    border-radius: 10px;
+}
+.resetdiv {
+    height: 300px;
+    width: 500px;
+    background-color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.resetdiv p {
+    margin-top: 3vh;
+    margin-left: 80px; 
+    font-size: larger;
+    font-weight: 600;
+}
+.laem {
+    position: absolute;
+    top: 40%;
+    left: 30%;
+    
+}
+.resetdiv input {
+    width: 70%;
+    padding: 10px;
+    outline: none;
+    border: 2px solid #9de5fd;
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+.resetdiv input:focus {
+    background-color: #9de5fd;
+    width: 100%;
+}
+.resetdiv button {
+    position: absolute;
+    top: 65%;
+    left: 40%;
+    background-color: #9de5fd;
+    padding: 5px 15px 5px 15px;
+    border: none;
+    border-radius: 20px;
+    height: 6vh;
+}
+/* =============================================dashboard.html */
+.dashboard{
+    height: 100vh;
+    width: 100%;
+}
+.dashprofile {
+    height: 14vh;
+    width: 100%;
+    display: flex;background-color: #9de5fd;
+    align-items: center;
+
+}
+.dashprofile img {
+    height: 80PX;
+    width: 80px;
+    border-radius: 50%;
+    background-color: white;
+}
+.dashanks {
+    background-color: #9de5fd;
+    height: 8vh;
+    width: 80%;
+    margin-top: 4vh;
+    margin-left: 10%;
+    border-radius: 10px;
+    padding-top: 2vh;
+}
+.dashanks a {
+    padding-left: 80px;
+    text-decoration: none;
+    color: black;
+}
+.dashdivs {
+    display: flex;
+}
+.dashdisp {
+    display: flex;
+    flex-direction: column;
+}
+.count {
+    height: 30vh;
+    width: 250px;
+    background-color: black;
+    margin-top: 2vh;
+    color: white;
+    margin-left: 250px;
+    padding-top: 5vh;
+    border-radius: 10px;
+}
+.count p {
+    padding-top: 7vh;
+    padding-left: 80px;
+}
+.graph {
+    height: 60vh;
+    width: 420px;
+    background-color: gainsboro;
+    margin-left: 50px;
+    margin-top: 2vh;
+    border-radius: 10px;
+}
+.bord {
+    height: 50vh;
+    border-left: 2px solid black;
+    border-bottom: 2px solid black;
+    margin-left: 80px;
+}
+.anks a {
+    color: red;
+}
+/* ===================================================addstudent.html */
+.addstudent {
+    height: 100vh;
+    width: 100%;
+}
+.addstudis {
+    display: flex;
+    margin-top: 10vh;
+    height: 400px;
+    width: 900px;
+    margin-left: 240px;
+    background-color: gainsboro;
+}
+.buttonsss {
+    position: absolute;
+    bottom: 25vh;
+    left: 500px;
+    height: 6vh;
+    width: 200px;
+    background-color: #9de5fd;
+    border-radius: 20px;
+}
+.stuinput  {
+    margin-top: 3vh;
+    height: 6vh;
+    width: 250px;
+}
+.part1 {
+    margin-left: 100px;
+}
+.part2 {
+    margin-left: 100px;
+}
+/* =============================================allteachers/allstudents.html */
+.all {
+    font-weight: 600;
+    background-color: black;
+    border-radius: 10px;
+    width: 200px;
+    height: 6vh;
+    margin-top: 3vh;
+    margin-left: 530px;
+    color: white;
+    padding-left: 20px;
+}
+.tabs {
+    margin-top: 4vh;
+}
